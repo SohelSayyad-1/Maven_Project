@@ -20,6 +20,7 @@ public class BasicsOfTestNG {
         driver.get("https://www.flipkart.com/");
         driver.manage().window().maximize();
         driver.close();
+        System.out.println("closed");
     }
 
     @Test
