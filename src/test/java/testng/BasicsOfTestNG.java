@@ -30,4 +30,11 @@ public class BasicsOfTestNG {
         driver.manage().window().maximize();
         driver.close();
     }
+    @Test
+    public void testforGoogle() {
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.google.com/");
+        driver.manage().window().maximize();
+        driver.close();
+    }
 }
