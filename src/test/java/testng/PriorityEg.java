@@ -29,7 +29,10 @@ public class PriorityEg {
     public void test_5() {
         System.out.println("5");
     }
-
+    @Test(priority = 'a',groups = "sanity")
+    public void test_6() {
+        System.out.println("Test case 6");
+    }
     @Test(priority = 'a',groups = "sanity")
     public void test_7() {
         System.out.println("Test case 7");
