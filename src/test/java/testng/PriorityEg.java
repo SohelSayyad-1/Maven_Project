@@ -29,6 +29,7 @@ public class PriorityEg {
     public void test_5() {
         System.out.println("5");
     }
+
     @Test(priority = 'a',groups = "sanity")
     public void test_7() {
         System.out.println("Test case 7");
@@ -37,9 +38,11 @@ public class PriorityEg {
      @Test(priority = 'b',groups = "regression")
     public void test_8() {
      System.out.println("Test case 8");
-
-
-
  }
+    @Test(priority = 'a',groups = "sanity")
+    public void test_9() {
+        System.out.println("Test case 9");
+        System.out.println("new method");
+    }
 
 }
