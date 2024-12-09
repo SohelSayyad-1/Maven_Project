@@ -25,15 +25,13 @@ public class PriorityEg {
     public void test_4(){
         System.out.println("4");
     }
-    @Test(priority = 1,groups = {"sanity"})
+    @Test(priority = 1)
     public void test_5() {
         System.out.println("5");
-        System.out.println("hello everyone...");
     }
-    @Test(priority = 'a')
+    @Test(priority = 'a',groups = "sanity")
     public void test_7() {
         System.out.println("Test case 7");
-        System.out.println("how are uh all...");
     }
 
      @Test(priority = 'b',groups = "regression")
