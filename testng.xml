@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.failscripts.AnotherListeners"/>
+    </listeners>
+    <test verbose="2"
+        preserve-order="true"
+            parallel="false"
+            thread-count="2"
+        name="C:/Users/user/IdeaProjects/Maven_Project/src/test/java/testng">
+    <classes>
+
+        <!-- <class name="testng.parameters.DataProviderWithExcelSheet"/> -->
+        <class name="testng.failscripts.FailScript"/>
+    </classes>
+    </test>
+</suite>
