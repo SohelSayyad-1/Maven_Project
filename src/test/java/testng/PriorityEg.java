@@ -33,9 +33,10 @@ public class PriorityEg {
     @Test(priority = 'a')
     public void test_7() {
         System.out.println("Test case 7");
+        System.out.println("how are uh all...");
     }
 
-     @Test(priority = 'b')
+     @Test(priority = 'b',groups = "regression")
     public void test_8() {
      System.out.println("Test case 8");
 
