@@ -10,7 +10,7 @@ public class BasicSelenium {
         driver.get("");
         driver.manage().window().maximize();
         driver.close();
-        System.out.println("hello guys whats upp...");
+        System.out.println("hello guys whats up...");
 
     }
 }
