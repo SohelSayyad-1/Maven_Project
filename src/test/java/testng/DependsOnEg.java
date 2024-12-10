@@ -18,4 +18,5 @@ public class DependsOnEg {
     public void VerifyNewUser(){
         System.out.println("verify NewUser");
           System.out.println("Hello guys..");
+          System.out.println("How r uh all");
 }
