@@ -42,7 +42,7 @@ public class PriorityEg {
     @Test(priority = 'a',groups = "sanity")
     public void test_9() {
         System.out.println("Test case 9");
-       
+         System.out.println("Hello guys");
     }
 
 }
